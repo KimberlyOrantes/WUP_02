@@ -1,7 +1,7 @@
 ---
 title: "Cabbages"
 author: "Kimberly Orantes"
-date: "September 4, 2021"
+date: "October 11, 2021"
 output:
   html_document:
     df_print: paged
@@ -61,7 +61,7 @@ The average of the vitamin C in the c39 cultivation method is 51.5. The average 
 t.test(VitC~Cult,data=veggy)
 ```
 
-
+The p-value is 3.405e-08 which is equivalent to 0.00000003405. This means there is a 0.00000003405% probability of getting this specific set of results if we assume the null hypothesis is true. Therefore we can reject the null hypothesis because the probability of getting these specific results is too low.  
   
 # Discussion and Conclusion
 

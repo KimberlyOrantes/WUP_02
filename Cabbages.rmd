@@ -25,7 +25,7 @@ veggy <- cabbages
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-I will use variable analysis, descriptive analysis, and inferential analysis.
+I will use variable analysis, descriptive analysis, and inferential analysis. This problem is a numerical by categorical problem so we will be using the numerical-cat helper file.
 
 # Results
 
@@ -66,3 +66,5 @@ The p-value is 3.405e-08 which is equivalent to 0.00000003405. This means there 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We first plotted identified what type of problem this was and we concluded it was a numerical by categorical problem, therefore we uploaded a numerical by categorical helper file into Rstudio. After analyzing the problem and data set we determined we needed to compare c52 by c39 so we inserted a function to graphically view those results using boxplots. We compared the two sets numerically using a favstats function which showed the two sets means. We then used a t-test function to calculate our p-value. The p-value was less than 1 therefore we rejected the null hypothesis that there wasn't a difference in average VitC between c39 and c52 cultivation methods because there is a difference in average VitC between c39 and c52 cultivation methods.   
